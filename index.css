@@ -1,21 +1,23 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url(./Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Poppins";
+    font-family: "Montserrat";
 }
-html {
-    /* height: 100%; */
-}
+
 body{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center; 
     height: 100vh;
-    /* min-height: 100%; */
-    /* padding: 0; */
-    
+   
 }
 #startGame{
     text-decoration: none;
@@ -31,16 +33,7 @@ body{
     left: -1px;
     bottom: 2px;
     box-shadow: 1px 4px 2px black;
-    background: linear-gradient(
-        90deg,
-        rgb(187, 31, 31) 0%,
-        rgb( 187, 31, 31) 49%,
-        rgb( 49, 159, 248,1) 51%,
-        rgb( 49, 159, 248,1) 93%
-    );
-}
-#bodyindex{
-    
+    background:rgb( 49, 159, 248,1) ;
 }
 video{
     position: fixed;
