@@ -21,15 +21,21 @@
         rgb(238, 51, 51) 93%
     );
 }
+@font-face {
+    font-family: 'Montserrat';
+    src: url(./Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: poppins;
+    
 }
 html{
     height: 100%;
-    font-family: "Poppins";
+    font-family: "Montserrat";
 }
 .b{
     border: 1px solid black;
@@ -63,8 +69,12 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 30px;
-    width: 30px;
+    height: 40px;
+    width: 40px;
+}
+#title{
+    font-family: 'Montserrat';
+    font-weight: 400;
 }
 #return{
     position: relative;
@@ -80,6 +90,11 @@ body{
     align-items: center;
     padding: 2px;
     transition: all 0.4s;
+    height: 40px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-family: 'Montserrat';
+    transition: 1s all ease-in-out;
 }
 #return:hover{
     bottom: 2px;
@@ -106,6 +121,12 @@ video{
     border: none;
     color: white;
     border-radius: 3px;
+    transition: ease-in-out 2s all;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat';
 }
 .btn:hover{
     /* border: 1px solid black; */
